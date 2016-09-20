@@ -1,0 +1,76 @@
+Question 1:
+
+Fitting a binary response variable using OLS regression is statistically incorrect for a few reasons. First, the response variable is a probability (value between 0 and 1) and a standard linear function to model the probability can produce values beyond 0 to 1.  The second reason is that the response variable (probability) is a binomial random variable (a count of how often a particular event occurs in a fixed number of trials) and the variance depends on the value of X.  The response output is binomial distribution and not a normal distribution when using OLS regression. This violates the OLS linearity assumption. Given that the variance depends on X it would violate the OLS equal variance assumption.
+
+
+Question 2:
+
+The backward elimination method first considers all variables in the regression equation and drops variables one at at time based on their contribution to the reduction of sum of squares error (SSE).  An overall F-test value is given for the model and the p-values for each of the variables. During each step an F-test of nested models is executed to evaluate the significance of the full and reduced model.
+
+First step: In this step a t-test is conducted to evaluate the signficance of the variables based on 0.10 level. In this step, X1 had the lowest t-test and p-value was > 0.10 so it was dropped.  The method will continue until all t-tests are significant or all variable have been deleted.
+
+Y = B0 + B1X1 + B2X2 + B3X3 + B4X4 + B5X5  (Full Model)
+Y = B0 + B2X2 + B3X3 + B4X4 + B5X5 (nested model)
+
+Second step: Again in this step a t-test is conducted to evaluate the remaining variables.  In this step X4 had the lowest t-test and p-value was > 0.10 so it was dropped. All other variables had p-values smaller than 0.01 and hence the backward elimination method was stopped.
+
+Y = B0 + B2X2 + B3X3 + B4X4 + B5X5 (full model)
+Y = B0 + B2X2 + B3X3 + B5X5 (nested model)
+
+
+Question 3:
+
+a. Design variables are required for OLS regression models to represent discrete values. I would specify one of the variables as the "base" (Unknown). There are 3 states and therefore we will need 2 design variables (Male, Female).  The 3 states are coded as:
+
+Gender of Male: Male=1, Female=0;
+Gender of Females: Male=0, Female=1;
+Gender of Unknown: Male=0, Female=0;
+
+The OLS regression models follows as:  Y = B0 + B1*Male + B2*Female
+
+b. First I would conduct an F-test to evaluate the significance of the model and confirm that the model has explanatory power. 
+
+H0: Male = Female = 0;
+H1: Male or Female is not equal to 0;
+
+
+I would also evaluate the t-tests on the intercept and the Male and Female design variables to determine if the constant and predictors are significant. For each variable:
+
+H0: Bj = 0
+H1: Bj not equal to 0
+
+
+I would also evaluate the coefficient of determination to evaluate the fit (the proportion of variance that is explained by the model). It will also be important to assess the residuals to ensure the model is suitable for use.
+
+Normality - the error has a normal distribution.   Diagnostic: the Q-Q plot should be a straight line.
+The errors have mean zero
+Constant variance (homogeneity or homoscedasticity) - errors have the same variance. Diagnostic: a scatterplot of residuals versus the predictor X.  The plot should be random error. 
+Independent-errors - the errors are independent of each other (pairwise covariance are zero).   When this does not hold we have auto-correlation.  Diagnostic: scatterplot of residuals by observation number.  The points should be scattered randomly within a horizontal band around zero.
+
+Question 4:
+
+a. Exponentiating the blkdef coefficient will determine the odds. e^-0.5308 = 0.5881. If there are 100 observations there will be 5 false positives. Black defendents are more likely to get the death penalty than non-black defendents given this odds-ratio.  
+
+b. e^1.5563 = 4.74. This means that the odds of getting a death penalty when the crime was against a white victim is 4.74 times higher.  With a 5% Type I error rate for 100 observations, we will then get 5 false positives. This is still statistically significant.
+
+c. We will first calculate the logit and then the probability.
+
+	pi/(1-pi) = e^-0.5308 + e^1.5563 + e^0.3707 + e^1.7911 + e^0.373 + e^0.1999 + e^1.4429 + e^0.1232 = 20.8116
+	pi = 0.9542
+
+	If the defendent was not black:
+
+	pi/(1-pi) = e^1.5563 + e^0.3707 + e^1.7911 + e^0.373 + e^0.1999 + e^1.4429 + e^0.1232 =20.2235
+	pi = 0.9529
+
+d. I don't believe so since we need to understand the interaction terms for each of variables.
+
+e. This may be a case where the inclusion of an interaction term (multivic and yndvict) could improve the model predictions. I would assess the interaction using a likelihood ratio test. Perhaps since there is higher chance of the dealth penalty for women the fact that young children are often with their mother, it could follow there is a valid interaction between multivic and yndvict that captures this.
+		
+Question 5:
+
+a. True
+b. False
+c. True
+d. False
+e. False - only VIRAMAX produces orthogonal results.

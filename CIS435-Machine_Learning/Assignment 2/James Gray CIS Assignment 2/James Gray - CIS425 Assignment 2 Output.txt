@@ -1,0 +1,319 @@
+Welcome to Canopy's interactive data-analysis environment!
+ with pylab-backend set to: qt
+Type '?' for more information.
+
+In [105]: %run "C:/Users/jamgr/SkyDrive/Career Management/Northwestern/CIS435/Assignments/Assignment 2/000_apriori_work_v001/000_apriori_work_v001/James_Gray_CIS435_Assignment_2.py"
+(1698, 43)
+        id nnights nadults nchildren               planning  0        1       3       2         3             This Month   
+1        2       3       4        5+  One Month or More Ago   
+2        3      4+       2         2  One Month or More Ago   
+3        4       3       1         1             This Month   
+4        5      4+      5+        5+  One Month or More Ago   
+5        6       0       2         4  One Month or More Ago   
+6        7       1       2         4              This Week   
+7        8      4+      5+         2  One Month or More Ago   
+8        9       0       2   No kids              This Week   
+9       10       3       2         2  One Month or More Ago   
+...    ...     ...     ...       ...                    ...   
+1688  1689       3       4         4  One Month or More Ago   
+1689  1690       2       4        5+  One Month or More Ago   
+1690  1691       2       2         1  One Month or More Ago   
+1691  1692       1       2         2              This Week   
+1692  1693       3       2         2             This Month   
+1693  1694       0       2   No kids              This Week   
+1694  1695       3       2         2  One Month or More Ago   
+1695  1696       3       2   No kids             This Month   
+1696  1697      4+       3        5+  One Month or More Ago   
+1697  1698       2       3        5+  One Month or More Ago   
+
+              ...           movietheater concerttheater barpubdance  0             ...                     NO             NO          NO   
+1             ...                     NO             NO          NO   
+2             ...                     NO            YES          NO   
+3             ...                     NO             NO          NO   
+4             ...                     NO             NO          NO   
+5             ...                     NO             NO          NO   
+6             ...                     NO             NO          NO   
+7             ...                     NO             NO         YES   
+8             ...                     NO             NO         YES   
+9             ...                     NO             NO          NO   
+...           ...                    ...            ...         ...   
+1688          ...                     NO             NO          NO   
+1689          ...                     NO             NO          NO   
+1690          ...                    YES            YES         YES   
+1691          ...                     NO            YES          NO   
+1692          ...                     NO             NO          NO   
+1693          ...                     NO             NO          NO   
+1694          ...                    YES             NO          NO   
+1695          ...                    YES            YES         YES   
+1696          ...                    YES            YES          NO   
+1697          ...                     NO             NO          NO   
+
+     shopbroadway bungeejumping  
+0             YES            NO  
+1              NO            NO  
+2             YES            NO  
+3              NO            NO  
+4             YES            NO  
+5              NO            NO  
+6              NO            NO  
+7             YES            NO  
+8             YES            NO  
+9             YES            NO  
+...           ...           ...  
+1688          YES            NO  
+1689          YES           YES  
+1690          YES            NO  
+1691          YES            NO  
+1692          YES            NO  
+1693           NO            NO  
+1694           NO            NO  
+1695           NO            NO  
+1696          YES            NO  
+1697          YES            NO  
+
+[1698 rows x 43 columns]
+(1698, 33)
+<bound method DataFrame.head of      shopping antiquing scenery eatfine eatcasual    ...    movietheater  0         YES        NO     YES     YES       YES    ...              NO   
+1         YES        NO     YES      NO       YES    ...              NO   
+2         YES        NO     YES      NO       YES    ...              NO   
+3         YES        NO     YES      NO       YES    ...              NO   
+4         YES        NO     YES      NO       YES    ...              NO   
+5         YES        NO      NO      NO        NO    ...              NO   
+6         YES        NO      NO     YES        NO    ...              NO   
+7         YES        NO     YES      NO       YES    ...              NO   
+8         YES       YES      NO     YES        NO    ...              NO   
+9         YES        NO      NO      NO       YES    ...              NO   
+...       ...       ...     ...     ...       ...    ...             ...   
+1688      YES        NO      NO     YES        NO    ...              NO   
+1689      YES       YES     YES      NO        NO    ...              NO   
+1690      YES        NO     YES      NO       YES    ...             YES   
+1691      YES       YES     YES      NO       YES    ...              NO   
+1692      YES       YES     YES      NO       YES    ...              NO   
+1693       NO        NO     YES      NO       YES    ...              NO   
+1694      YES       YES     YES      NO       YES    ...             YES   
+1695      YES        NO     YES      NO       YES    ...             YES   
+1696      YES        NO     YES      NO       YES    ...             YES   
+1697      YES        NO     YES     YES        NO    ...              NO   
+
+     concerttheater barpubdance shopbroadway bungeejumping  
+0                NO          NO          YES            NO  
+1                NO          NO           NO            NO  
+2               YES          NO          YES            NO  
+3                NO          NO           NO            NO  
+4                NO          NO          YES            NO  
+5                NO          NO           NO            NO  
+6                NO          NO           NO            NO  
+7                NO         YES          YES            NO  
+8                NO         YES          YES            NO  
+9                NO          NO          YES            NO  
+...             ...         ...          ...           ...  
+1688             NO          NO          YES            NO  
+1689             NO          NO          YES           YES  
+1690            YES         YES          YES            NO  
+1691            YES          NO          YES            NO  
+1692             NO          NO          YES            NO  
+1693             NO          NO           NO            NO  
+1694             NO          NO           NO            NO  
+1695            YES         YES           NO            NO  
+1696            YES          NO          YES            NO  
+1697             NO          NO          YES            NO  
+
+[1698 rows x 33 columns]>
+<bound method DataFrame.head of       shopping  antiquing  scenery  eatfine  eatcasual    ...      0     shopping        NaN  scenery  eatfine  eatcasual    ...       
+1     shopping        NaN  scenery      NaN  eatcasual    ...       
+2     shopping        NaN  scenery      NaN  eatcasual    ...       
+3     shopping        NaN  scenery      NaN  eatcasual    ...       
+4     shopping        NaN  scenery      NaN  eatcasual    ...       
+5     shopping        NaN      NaN      NaN        NaN    ...       
+6     shopping        NaN      NaN  eatfine        NaN    ...       
+7     shopping        NaN  scenery      NaN  eatcasual    ...       
+8     shopping  antiquing      NaN  eatfine        NaN    ...       
+9     shopping        NaN      NaN      NaN  eatcasual    ...       
+...        ...        ...      ...      ...        ...    ...       
+1688  shopping        NaN      NaN  eatfine        NaN    ...       
+1689  shopping  antiquing  scenery      NaN        NaN    ...       
+1690  shopping        NaN  scenery      NaN  eatcasual    ...       
+1691  shopping  antiquing  scenery      NaN  eatcasual    ...       
+1692  shopping  antiquing  scenery      NaN  eatcasual    ...       
+1693       NaN        NaN  scenery      NaN  eatcasual    ...       
+1694  shopping  antiquing  scenery      NaN  eatcasual    ...       
+1695  shopping        NaN  scenery      NaN  eatcasual    ...       
+1696  shopping        NaN  scenery      NaN  eatcasual    ...       
+1697  shopping        NaN  scenery  eatfine        NaN    ...       
+
+      movietheater  concerttheater  barpubdance  shopbroadway  bungeejumping  
+0              NaN             NaN          NaN  shopbroadway            NaN  
+1              NaN             NaN          NaN           NaN            NaN  
+2              NaN  concerttheater          NaN  shopbroadway            NaN  
+3              NaN             NaN          NaN           NaN            NaN  
+4              NaN             NaN          NaN  shopbroadway            NaN  
+5              NaN             NaN          NaN           NaN            NaN  
+6              NaN             NaN          NaN           NaN            NaN  
+7              NaN             NaN  barpubdance  shopbroadway            NaN  
+8              NaN             NaN  barpubdance  shopbroadway            NaN  
+9              NaN             NaN          NaN  shopbroadway            NaN  
+...            ...             ...          ...           ...            ...  
+1688           NaN             NaN          NaN  shopbroadway            NaN  
+1689           NaN             NaN          NaN  shopbroadway  bungeejumping  
+1690  movietheater  concerttheater  barpubdance  shopbroadway            NaN  
+1691           NaN  concerttheater          NaN  shopbroadway            NaN  
+1692           NaN             NaN          NaN  shopbroadway            NaN  
+1693           NaN             NaN          NaN           NaN            NaN  
+1694  movietheater             NaN          NaN           NaN            NaN  
+1695  movietheater  concerttheater  barpubdance           NaN            NaN  
+1696  movietheater  concerttheater          NaN  shopbroadway            NaN  
+1697           NaN             NaN          NaN  shopbroadway            NaN  
+
+[1698 rows x 33 columns]>
+Identified rules with support =  0.5 and confidence =  0.6
+frozenset(['indoorpool']) --> frozenset(['shopping']) conf: 0.864490603363
+frozenset(['shopping']) --> frozenset(['indoorpool']) conf: 0.633792603336
+frozenset(['shopping']) --> frozenset(['scenery']) conf: 0.729514140682
+frozenset(['scenery']) --> frozenset(['shopping']) conf: 0.852542372881
+frozenset(['shopping']) --> frozenset(['waterpark']) conf: 0.734590282814
+frozenset(['waterpark']) --> frozenset(['shopping']) conf: 0.813654618474
+frozenset(['shopping']) --> frozenset(['boattours']) conf: 0.630166787527
+frozenset(['boattours']) --> frozenset(['shopping']) conf: 0.883130081301
+frozenset(['eatfamstyle']) --> frozenset(['shopbroadway']) conf: 0.777038269551
+frozenset(['shopbroadway']) --> frozenset(['eatfamstyle']) conf: 0.757502027575
+frozenset(['shopping']) --> frozenset(['shopbroadway']) conf: 0.824510514866
+frozenset(['shopbroadway']) --> frozenset(['shopping']) conf: 0.922141119221
+frozenset(['eatfamstyle']) --> frozenset(['waterpark']) conf: 0.781198003328
+frozenset(['waterpark']) --> frozenset(['eatfamstyle']) conf: 0.75421686747
+frozenset(['outdoorpool']) --> frozenset(['waterpark']) conf: 0.81401384083
+frozenset(['waterpark']) --> frozenset(['outdoorpool']) conf: 0.755823293173
+frozenset(['outdoorpool']) --> frozenset(['eatfamstyle']) conf: 0.794982698962
+frozenset(['eatfamstyle']) --> frozenset(['outdoorpool']) conf: 0.76455906822
+frozenset(['amusepark']) --> frozenset(['eatfamstyle']) conf: 0.806049822064
+frozenset(['eatfamstyle']) --> frozenset(['amusepark']) conf: 0.753743760399
+frozenset(['shopping']) --> frozenset(['museums']) conf: 0.628716461204
+frozenset(['museums']) --> frozenset(['shopping']) conf: 0.877530364372
+frozenset(['amusepark']) --> frozenset(['shopbroadway']) conf: 0.78024911032
+frozenset(['shopbroadway']) --> frozenset(['amusepark']) conf: 0.711273317113
+frozenset(['minigolf']) --> frozenset(['waterpark']) conf: 0.797932330827
+frozenset(['waterpark']) --> frozenset(['minigolf']) conf: 0.681927710843
+frozenset(['shopping']) --> frozenset(['amusepark']) conf: 0.701232777375
+frozenset(['amusepark']) --> frozenset(['shopping']) conf: 0.860320284698
+frozenset(['shopping']) --> frozenset(['rideducks']) conf: 0.621464829587
+frozenset(['rideducks']) --> frozenset(['shopping']) conf: 0.870050761421
+frozenset(['boatswim']) --> frozenset(['shopping']) conf: 0.861584754263
+frozenset(['shopping']) --> frozenset(['boatswim']) conf: 0.62291515591
+frozenset(['waterpark']) --> frozenset(['scenery']) conf: 0.698795180723
+frozenset(['scenery']) --> frozenset(['waterpark']) conf: 0.737288135593
+frozenset(['outdoorpool']) --> frozenset(['amusepark']) conf: 0.765570934256
+frozenset(['amusepark']) --> frozenset(['outdoorpool']) conf: 0.787366548043
+frozenset(['eatfamstyle']) --> frozenset(['scenery']) conf: 0.772046589018
+frozenset(['scenery']) --> frozenset(['eatfamstyle']) conf: 0.786440677966
+frozenset(['shopbroadway']) --> frozenset(['waterpark']) conf: 0.748580697486
+frozenset(['waterpark']) --> frozenset(['shopbroadway']) conf: 0.741365461847
+frozenset(['outdoorpool']) --> frozenset(['shopping']) conf: 0.865051903114
+frozenset(['shopping']) --> frozenset(['outdoorpool']) conf: 0.725163161711
+frozenset(['shopbroadway']) --> frozenset(['scenery']) conf: 0.731549067315
+frozenset(['scenery']) --> frozenset(['shopbroadway']) conf: 0.764406779661
+frozenset(['outdoorpool']) --> frozenset(['shopbroadway']) conf: 0.774221453287
+frozenset(['shopbroadway']) --> frozenset(['outdoorpool']) conf: 0.725871857259
+frozenset(['shopping']) --> frozenset(['eatcasual']) conf: 0.6439448876
+frozenset(['eatcasual']) --> frozenset(['shopping']) conf: 0.868884540117
+frozenset(['indoorpool']) --> frozenset(['outdoorpool']) conf: 0.884272997033
+frozenset(['outdoorpool']) --> frozenset(['indoorpool']) conf: 0.773356401384
+frozenset(['shopping']) --> frozenset(['eatfamstyle']) conf: 0.759245830312
+frozenset(['eatfamstyle']) --> frozenset(['shopping']) conf: 0.871048252912
+frozenset(['minigolf']) --> frozenset(['shopping']) conf: 0.84962406015
+frozenset(['shopping']) --> frozenset(['minigolf']) conf: 0.655547498187
+frozenset(['outdoorpool']) --> frozenset(['scenery']) conf: 0.742214532872
+frozenset(['scenery']) --> frozenset(['outdoorpool']) conf: 0.727118644068
+frozenset(['gocarting']) --> frozenset(['shopping']) conf: 0.856856856857
+frozenset(['shopping']) --> frozenset(['gocarting']) conf: 0.620739666425
+frozenset(['amusepark']) --> frozenset(['waterpark']) conf: 0.864768683274
+frozenset(['waterpark']) --> frozenset(['amusepark']) conf: 0.780722891566
+frozenset(['shopping']) --> frozenset(['shopbroadway', 'eatfamstyle']) conf: 0.635968092821
+frozenset(['eatfamstyle']) --> frozenset(['shopbroadway', 'shopping']) conf: 0.729617304493
+frozenset(['shopbroadway']) --> frozenset(['eatfamstyle', 'shopping']) conf: 0.711273317113
+frozenset(['shopping']) --> frozenset(['waterpark', 'shopbroadway']) conf: 0.61856417694
+frozenset(['shopbroadway']) --> frozenset(['waterpark', 'shopping']) conf: 0.691808596918
+frozenset(['waterpark']) --> frozenset(['shopbroadway', 'shopping']) conf: 0.685140562249
+
+Rules with  1  other item(s)
+frozenset(['rideducks', 'shopping'])
+
+Rules with  2  other item(s)
+<bound method DataFrame.head of       rideducks  nights_0  nights_1  nights_2  nights_3    ...     0     rideducks       NaN       NaN       NaN  nights_3    ...      
+1     rideducks       NaN       NaN       NaN  nights_3    ...      
+2     rideducks       NaN       NaN       NaN       NaN    ...      
+3     rideducks       NaN       NaN       NaN  nights_3    ...      
+4           NaN       NaN       NaN       NaN       NaN    ...      
+5           NaN  nights_0       NaN       NaN       NaN    ...      
+6     rideducks       NaN  nights_1       NaN       NaN    ...      
+7     rideducks       NaN       NaN       NaN       NaN    ...      
+8     rideducks  nights_0       NaN       NaN       NaN    ...      
+9     rideducks       NaN       NaN       NaN  nights_3    ...      
+...         ...       ...       ...       ...       ...    ...      
+1688  rideducks       NaN       NaN       NaN  nights_3    ...      
+1689  rideducks       NaN       NaN  nights_2       NaN    ...      
+1690  rideducks       NaN       NaN  nights_2       NaN    ...      
+1691  rideducks       NaN  nights_1       NaN       NaN    ...      
+1692  rideducks       NaN       NaN       NaN  nights_3    ...      
+1693  rideducks  nights_0       NaN       NaN       NaN    ...      
+1694  rideducks       NaN       NaN       NaN  nights_3    ...      
+1695  rideducks       NaN       NaN       NaN  nights_3    ...      
+1696  rideducks       NaN       NaN       NaN       NaN    ...      
+1697  rideducks       NaN       NaN  nights_2       NaN    ...      
+
+      reg_Madison  reg_Milw  reg_Minn  reg_OtherWis  reg_Other  
+0             NaN       NaN       NaN           NaN  reg_Other  
+1             NaN       NaN  reg_Minn           NaN        NaN  
+2             NaN       NaN       NaN           NaN        NaN  
+3             NaN       NaN       NaN           NaN        NaN  
+4             NaN       NaN       NaN           NaN  reg_Other  
+5             NaN       NaN       NaN           NaN  reg_Other  
+6             NaN       NaN       NaN  reg_OtherWis        NaN  
+7             NaN       NaN       NaN           NaN  reg_Other  
+8     reg_Madison       NaN       NaN           NaN        NaN  
+9             NaN       NaN       NaN           NaN        NaN  
+...           ...       ...       ...           ...        ...  
+1688          NaN  reg_Milw       NaN           NaN        NaN  
+1689          NaN       NaN       NaN           NaN  reg_Other  
+1690          NaN       NaN       NaN           NaN        NaN  
+1691          NaN       NaN       NaN           NaN  reg_Other  
+1692          NaN       NaN       NaN           NaN        NaN  
+1693  reg_Madison       NaN       NaN           NaN        NaN  
+1694          NaN       NaN       NaN           NaN        NaN  
+1695          NaN       NaN       NaN           NaN  reg_Other  
+1696          NaN       NaN       NaN           NaN  reg_Other  
+1697          NaN       NaN       NaN           NaN        NaN  
+
+[1698 rows x 39 columns]>
+Identified rules with support =  0.2 and confidence =  0.2
+frozenset(['rideducks']) --> frozenset(['ed_HSGrad']) conf: 0.350253807107
+frozenset(['ed_HSGrad']) --> frozenset(['rideducks']) conf: 0.604203152364
+frozenset(['rideducks']) --> frozenset(['adults_2']) conf: 0.639593908629
+frozenset(['adults_2']) --> frozenset(['rideducks']) conf: 0.599429115128
+frozenset(['income_mid']) --> frozenset(['planning_morethanmonth']) conf: 0.567656765677
+frozenset(['planning_morethanmonth']) --> frozenset(['income_mid']) conf: 0.393142857143
+frozenset(['age35to44']) --> frozenset(['rideducks']) conf: 0.557717250324
+frozenset(['rideducks']) --> frozenset(['age35to44']) conf: 0.43654822335
+frozenset(['planning_morethanmonth']) --> frozenset(['adults_2']) conf: 0.586285714286
+frozenset(['adults_2']) --> frozenset(['planning_morethanmonth']) conf: 0.488106565176
+frozenset(['planning_morethanmonth']) --> frozenset(['income_low']) conf: 0.408
+frozenset(['income_low']) --> frozenset(['planning_morethanmonth']) conf: 0.49105914718
+frozenset(['adults_2']) --> frozenset(['income_low']) conf: 0.41484300666
+frozenset(['income_low']) --> frozenset(['adults_2']) conf: 0.599724896836
+frozenset(['rideducks']) --> frozenset(['income_low']) conf: 0.439593908629
+frozenset(['income_low']) --> frozenset(['rideducks']) conf: 0.595598349381
+frozenset(['age35to44']) --> frozenset(['planning_morethanmonth']) conf: 0.534370946822
+frozenset(['planning_morethanmonth']) --> frozenset(['age35to44']) conf: 0.470857142857
+frozenset(['ed_HSGrad']) --> frozenset(['adults_2']) conf: 0.614711033275
+frozenset(['adults_2']) --> frozenset(['ed_HSGrad']) conf: 0.333967649857
+frozenset(['rideducks']) --> frozenset(['planning_morethanmonth']) conf: 0.546192893401
+frozenset(['planning_morethanmonth']) --> frozenset(['rideducks']) conf: 0.614857142857
+frozenset(['income_mid']) --> frozenset(['adults_2']) conf: 0.673267326733
+frozenset(['adults_2']) --> frozenset(['income_mid']) conf: 0.388201712655
+frozenset(['age35to44']) --> frozenset(['adults_2']) conf: 0.667963683528
+frozenset(['adults_2']) --> frozenset(['age35to44']) conf: 0.490009514748
+
+Rules with  1  other item(s)
+frozenset(['rideducks', 'shopping'])
+
+Rules with  2  other item(s)
+
+In [106]: 

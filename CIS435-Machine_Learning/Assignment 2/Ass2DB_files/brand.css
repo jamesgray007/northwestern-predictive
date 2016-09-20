@@ -1,0 +1,135 @@
+
+/*Content Frame background color / text color / background image*/
+#contentFrame,
+#schemePreview, 
+body,  
+.topFrame,
+/*.breadcrumbs,*/
+.paneTabs ul li.active, 
+.paneTabs ul li,
+.wizardBody .containerWizard {
+    background: url(bblearn_2011_bg.png) repeat 0 0;
+    background-color:#d9d6da;
+    color:#000000;
+}
+/*Content area background color / text color / background image */
+#contentArea,
+#schemePreviewBody,
+.container {        
+    background-color:#ffffff;
+    color:#111111;
+}
+
+/*Primary button background / text color*/
+#primaryButton, 
+input[type="submit"].submit,
+.mainButton a, .mainButton a:hover, .mainButton a:focus,
+.mainButton a, .actionBarMicro .mainButton a:hover, .actionBarMicro .mainButton a:focus,
+.rumble .mainButton > a, .rumble_top .mainButton > a:focus, 
+.rumble .mainButton > a:hover, .rumble_top .mainButton > a:focus, 
+.rumble .mainButton > a:hover, .rumble_top .mainButton > a:focus,
+.button-1, .button-1-img, .button-1:hover, .button-1-img:hover, .button-1:focus, .button-1-img:focus {
+    background-color:#f57810;
+	border-color:#f57810;
+    color:#f0f0f0;
+}
+
+/*Secondary button background / text color*/
+#secondaryButton, 
+.secondaryButton a, .secondaryButton a:hover, .secondaryButton a:focus,
+.button-2, .button-2-img, .button-2:hover, .button-2-img:focus, .button-2:hover, .button-2-img:focus {
+    background-color:#efefef;
+	border-color:#efefef;
+    color:#000000;
+}
+
+/*Page Header background color / text color / background image */
+#pageHeader, 
+#schemePreviewHead,
+div.pageTitle,
+.actionBar, 
+.contentPaneWide .actionBar,
+div.actionBar ul, 
+div.localViewToggle,
+.actionBarMicro, 
+div#lightboxContent h2,
+/*#puller,*/
+.frameResizeToggle {
+    background-color:#dedede;
+	border-color:#dedede;
+    color:#000000;
+}
+
+/*Top Frame Text Color */
+#topFrame, 
+.topGlobalLinks ul li,
+.topGlobalLinks a,
+.topGlobalLinks a:hover,
+.topGlobalLinks a:focus,
+.hotItems,
+.hotSpots a,
+.hotSpots li:after,
+.hotSpots a:hover  {
+    color:#cccccc;
+}
+
+
+/*Top Frame Background Color / Background Image*/
+#topFrame, 
+.bgBanner {
+    background-image: url(thearch.jpg);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-color:#3f3347;
+	border-color:transparent;
+}
+div.topTabs-compact {
+    background:#3f3347;
+	border-color:transparent;
+}
+
+/*Top Tab Color/Background Color*/
+#topTab, 
+table.appTabs tbody tr td a, div.topTabs-compact table.appTabs tr td a,
+table.appTabs tbody tr td a:hover, div.topTabs-compact table.appTabs tr td a:hover,
+table.appTabs tbody tr td a:focus, div.topTabs-compact table.appTabs tr td a:focus {   
+    color:#e9edd7;
+    background-color:transparent;
+	border-color:transparent;
+}
+
+/*Top Tab Active Tab Color/Background Color*/
+#topTabActive, 
+table.appTabs tbody tr td.active a, 
+table.appTabs tbody tr td.active a:hover, 
+table.appTabs tbody tr td.active a:focus,
+div.topTabs-compact table.appTabs tr td.active a, 
+div.topTabs-compact table.appTabs tr td.active a:hover, 
+div.topTabs-compact table.appTabs tr td.active a:focus {
+    color:#e9edd7;
+    background-color:transparent;  
+	border-color:transparent;             
+}
+
+/*Module colors*/
+#moduleTitle, 
+.portlet h2, .portlet h2 span.reorder
+{
+    background-color:#d9d6da;
+    color:#666666;
+}
+.portlet h2 a
+{
+    background-color: transparent;
+    color:#666666;
+}
+#moduleBorder, #moduleBody, 
+.portlet
+{
+    border-top-color: #cccccc;
+    border-left-color: #cccccc;
+    border-bottom-color: #cccccc;
+    border-right-color: #cccccc;
+    background-color:transparent;
+    color:#444444;    
+}

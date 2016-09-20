@@ -1,0 +1,341 @@
+%run "C:/Users/James/SkyDrive/Career Management/Northwestern/CIS435/Assignments/Assignment 5/Gray_James CIS435 Assignment 5.py"
+
+Top 200 words in movie taglines database
+
+['action', 'adventur', 'age', 'aliv', 'alway', 'america', 'american', 'anim', 'anoth', 'anyth', 'away', 'back', 'bad', 'battl', 'beauti', 'becom', 'begin', 'best', 'beyond', 'big', 'blood', 'born', 'boy', 'call', 'came', 'centuri', 'citi', 'come', 'comedi', 'cop', 'crime', 'danger', 'dare', 'dark', 'day', 'dead', 'deadli', 'death', 'desir', 'destroy', 'die', 'doesn', 'dream', 'earth', 'end', 'enemi', 'enough', 'even', 'ever', 'everi', 'everyon', 'everyth', 'evil', 'excit', 'experi', 'face', 'famili', 'fantasi', 'fast', 'fear', 'feel', 'fight', 'final', 'find', 'first', 'forc', 'forev', 'forget', 'found', 'friend', 'full', 'fun', 'futur', 'game', 'get', 'girl', 'go', 'good', 'great', 'greatest', 'happen', 'hard', 'heart', 'hell', 'hero', 'high', 'home', 'horror', 'hot', 'hour', 'human', 'imagin', 'journey', 'keep', 'kid', 'kill', 'killer', 'know', 'last', 'laugh', 'law', 'legend', 'let', 'life', 'like', 'littl', 'live', 'look', 'love', 'lover', 'made', 'magic', 'make', 'man', 'master', 'may', 'meet', 'men', 'million', 'mind', 'money', 'mother', 'move', 'movi', 'murder', 'music', 'must', 'mysteri', 'need', 'never', 'new', 'next', 'night', 'nightmar', 'noth', 'passion', 'past', 'peopl', 'pictur', 'place', 'play', 'power', 'race', 'readi', 'real', 'realli', 'return', 'reveng', 'right', 'rock', 'rule', 'run', 'save', 'say', 'scream', 'secret', 'see', 'sex', 'show', 'side', 'someon', 'someth', 'sometim', 'space', 'stand', 'star', 'stop', 'stori', 'summer', 'surviv', 'take', 'tale', 'terrifi', 'terror', 'thing', 'think', 'thought', 'time', 'togeth', 'town', 'tri', 'true', 'turn', 'ultim', 'wait', 'want', 'war', 'watch', 'way', 'weapon', 'wild', 'win', 'woman', 'women', 'won', 'world', 'would', 'year', 'york', 'young']
+
+ Top Words in Cluster : 0 ------------------------------
+     cluster  dist_to_0  dist_to_1  dist_to_2  dist_to_3  dist_to_4   word
+134        0   0.814411   1.027085   1.422875   1.493943   1.385064   noth
+19         0   0.857143   1.404126   1.713948   1.758959   1.658836    big
+196        0   0.857143   1.351199   1.636077   1.594431   1.633525  would
+63         0   0.857143   1.351199   1.636077   1.594431   1.633525   find
+30         0   0.897843   1.656021   1.894675   1.845069   1.871293  crime
+112        1   1.111168   0.234317   1.277995   1.140540   1.118810   make
+113        1   1.111168   0.234317   1.277995   1.140540   1.118810    man
+117        1   1.111168   0.234317   1.277995   1.140540   1.118810    men
+119        1   1.111168   0.234317   1.277995   1.140540   1.118810   mind
+123        1   1.111168   0.234317   1.277995   1.140540   1.118810   movi
+
+ Top Words in Cluster : 1 ------------------------------
+     cluster  dist_to_0  dist_to_1  dist_to_2  dist_to_3  dist_to_4   word
+199        1   1.111168   0.234317   1.277995    1.14054    1.11881  young
+129        1   1.111168   0.234317   1.277995    1.14054    1.11881  never
+64         1   1.111168   0.234317   1.277995    1.14054    1.11881  first
+119        1   1.111168   0.234317   1.277995    1.14054    1.11881   mind
+34         1   1.111168   0.234317   1.277995    1.14054    1.11881    day
+35         1   1.111168   0.234317   1.277995    1.14054    1.11881   dead
+117        1   1.111168   0.234317   1.277995    1.14054    1.11881    men
+37         1   1.111168   0.234317   1.277995    1.14054    1.11881  death
+113        1   1.111168   0.234317   1.277995    1.14054    1.11881    man
+112        1   1.111168   0.234317   1.277995    1.14054    1.11881   make
+
+ Top Words in Cluster : 2 ------------------------------
+     cluster  dist_to_0  dist_to_1  dist_to_2  dist_to_3  dist_to_4     word
+116        2   1.494889   1.027085   0.795783   1.516849   1.472550     meet
+132        2   1.494889   1.027085   0.795783   1.516849   1.472550    night
+135        2   1.494889   1.027085   0.795783   1.516849   1.472550  passion
+33         2   1.758362   1.680993   1.114435   1.447044   1.893428     dark
+125        2   1.737932   1.396688   1.133774   1.658043   1.732552    music
+180        2   1.737932   1.396688   1.133774   1.658043   1.732552      tri
+143        2   2.005096   1.741859   1.152789   1.668410   1.915307    readi
+171        4   1.778557   1.433494   1.243509   1.816819   1.080927     tale
+178        2   1.778557   1.396688   1.243509   1.797739   1.708333   togeth
+84         3   1.421411   1.027085   1.260870   0.885207   1.385064     hero
+
+ Top Words in Cluster : 3 ------------------------------
+     cluster  dist_to_0  dist_to_1  dist_to_2  dist_to_3  dist_to_4   word
+90         3   1.421411   1.027085   1.260870   0.885207   1.385064  human
+166        3   1.421411   1.027085   1.260870   0.885207   1.385064   stop
+84         3   1.421411   1.027085   1.260870   0.885207   1.385064   hero
+126        3   1.631951   1.680993   1.675465   0.959959   1.780001   must
+150        3   1.631951   1.680993   1.675465   0.959959   1.780001   rule
+82         3   1.837811   1.717771   1.675465   1.029297   1.803257  heart
+137        1   1.111168   0.234317   1.277995   1.140540   1.118810  peopl
+42         1   1.111168   0.234317   1.277995   1.140540   1.118810  dream
+130        1   1.111168   0.234317   1.277995   1.140540   1.118810    new
+113        1   1.111168   0.234317   1.277995   1.140540   1.118810    man
+
+ Top Words in Cluster : 4 ------------------------------
+     cluster  dist_to_0  dist_to_1  dist_to_2  dist_to_3  dist_to_4    word
+17         4   1.470804   1.027085   1.595717   1.516849   0.501733    best
+65         4   1.470804   1.027085   1.595717   1.516849   0.501733    forc
+47         4   1.653691   1.433494   1.763953   1.458910   0.867027    even
+128        4   1.653691   1.433494   1.763953   1.458910   0.867027    need
+169        4   1.758362   1.418886   1.812579   1.758959   0.958333  surviv
+85         4   1.696335   1.381691   1.812579   1.678712   1.041667    high
+171        4   1.778557   1.433494   1.243509   1.816819   1.080927    tale
+129        1   1.111168   0.234317   1.277995   1.140540   1.118810   never
+130        1   1.111168   0.234317   1.277995   1.140540   1.118810     new
+42         1   1.111168   0.234317   1.277995   1.140540   1.118810   dream
+   cluster  dist_to_0  dist_to_1  dist_to_2  dist_to_3  dist_to_4      word  0        1   1.470804   0.975058   1.595717   1.493943   1.414827    action   
+1        1   1.111168   0.234317   1.277995   1.140540   1.118810  adventur   
+2        2   2.424366   2.215642   1.751586   2.187142   2.363275       age   
+3        0   2.057837   2.153657   2.345812   2.202852   2.327746      aliv   
+4        1   1.969150   1.907417   2.241556   2.048752   2.141278     alway   
+
+   cluster_name  
+0     make-love  
+1     make-love  
+2  family-fight  
+3       got-men  
+4     make-love  
+              year  big_journey  big_journey_words  family_fight  count    40.000000    40.000000           40.00000     40.000000   
+mean   1993.500000     7.471313          377.25000      4.449401   
+std      11.690452     0.983773          341.46928      0.798244   
+min    1974.000000     4.373368           67.00000      2.177858   
+25%    1983.750000     7.035528          134.00000      4.228972   
+50%    1993.500000     7.519829          190.50000      4.526868   
+75%    2003.250000     8.135560          543.25000      4.790130   
+max    2013.000000     8.976261         1199.00000      5.817246   
+
+       family_fight_words    got_men  got_men_words  human_hero  count           40.000000  40.000000      40.000000   40.000000   
+mean           231.200000   6.221553     327.450000    4.451562   
+std            212.994908   1.122706     307.154179    0.857688   
+min             36.000000   2.440591      38.000000    1.211204   
+25%             74.500000   5.886981     113.750000    4.056292   
+50%            118.500000   6.591074     159.500000    4.494569   
+75%            340.000000   6.989652     536.000000    4.904966   
+max            724.000000   7.528285    1039.000000    6.060606   
+
+       human_hero_words  make_love  make_love_words   total_words  
+count         40.000000  40.000000        40.000000     40.000000  
+mean         222.200000   9.372880       451.775000   5070.200000  
+std          196.024619   0.968201       391.926242   4699.920982  
+min           16.000000   7.570978       124.000000   1321.000000  
+25%           77.750000   8.610336       175.500000   1799.000000  
+50%          117.500000   9.329019       233.500000   2398.000000  
+75%          324.750000  10.179087       622.750000   7474.500000  
+max          697.000000  11.822660      1394.000000  16667.000000  
+                                             stemmed  0   funniest police shows ever funniest police co...   
+1   mosaiken und fresken als zeugen der geschicht...   
+2   let poisons lurk mud hatch maryland lottery l...   
+3   soup rob old tricks get ready match stars may...   
+4   searching star called earth first win great w...   
+
+                                        tagline_text  year  big_journey  0    One of the Funniest Police Shows Ever One of...  1974     8.106473   
+1    Mosaiken und Fresken als Zeugen der Geschich...  1975     4.373368   
+2    Let all the poisons that lurk in the mud hat...  1976     5.530547   
+3    Soup and Rob are up to their old tricks agai...  1977     4.933726   
+4    They were searching for a star called Earth,...  1978     6.936416   
+
+   big_journey_words  family_fight  family_fight_words   got_men  0                134      2.177858                  36  5.928615   
+1                 67      2.872063                  44  6.984334   
+2                 86      3.922830                  61  4.180064   
+3                 67      2.724595                  37  5.007364   
+4                108      3.018626                  47  2.440591   
+
+   got_men_words  human_hero  human_hero_words  make_love  make_love_words  0             98    4.476709                74  10.889292              180   
+1            107    3.328982                51   8.093995              124   
+2             65    3.729904                58   7.974277              124   
+3             68    3.829161                52  10.603829              144   
+4             38    3.660886                57  10.211946              159   
+
+   total_words  
+0         1653  
+1         1532  
+2         1555  
+3         1358  
+4         1557  
+                                              stemmed  35   pillars love triangle twin cities locally pro...   
+36   alice important date healing broken heart hil...   
+37   shook chile neighborhood lifestyle dollar chr...   
+38   movie unrated uncensored first family comedy ...   
+39   pretty outside ugly crying inside jash gave c...   
+
+                                         tagline_text  year  big_journey  35    The Pillars of a Love Triangle  The Twin Cit...  2009     7.193856   
+36    all about Alice and her very important date(...  2010     6.813545   
+37    12 days that shook Chile  It's not just a ne...  2011     7.439255   
+38    The Movie Unrated And Uncensored  The First ...  2012     6.972065   
+39    Pretty on the outside, ugly-crying on the in...  2013     6.928105   
+
+    big_journey_words  family_fight  family_fight_words   got_men  35               1199      4.343913                 724  6.149877   
+36                835      3.949408                 484  6.593227   
+37                943      4.622909                 586  6.571474   
+38                901      4.565503                 590  6.175037   
+39                530      4.104575                 314  6.980392   
+
+    got_men_words  human_hero  human_hero_words  make_love  make_love_words  35           1025    4.181916               697   8.363833             1394   
+36            808    4.088127               501   8.412893             1031   
+37            833    4.212685               534   8.212370             1041   
+38            798    3.853594               498   8.612551             1113   
+39            534    3.960784               303   7.647059              585   
+
+    total_words  
+35        16667  
+36        12255  
+37        12676  
+38        12923  
+39         7650  
+
+%run "C:/Users/James/SkyDrive/Career Management/Northwestern/CIS435/Assignments/Assignment 5/Gray_James CIS435 Assignment 5.py"
+
+Top 200 words in movie taglines database
+
+['action', 'adventur', 'age', 'aliv', 'alway', 'america', 'american', 'anim', 'anoth', 'anyth', 'away', 'back', 'bad', 'battl', 'beauti', 'becom', 'begin', 'best', 'beyond', 'big', 'blood', 'born', 'boy', 'call', 'came', 'centuri', 'citi', 'come', 'comedi', 'cop', 'crime', 'danger', 'dare', 'dark', 'day', 'dead', 'deadli', 'death', 'desir', 'destroy', 'die', 'doesn', 'dream', 'earth', 'end', 'enemi', 'enough', 'even', 'ever', 'everi', 'everyon', 'everyth', 'evil', 'excit', 'experi', 'face', 'famili', 'fantasi', 'fast', 'fear', 'feel', 'fight', 'final', 'find', 'first', 'forc', 'forev', 'forget', 'found', 'friend', 'full', 'fun', 'futur', 'game', 'get', 'girl', 'go', 'good', 'great', 'greatest', 'happen', 'hard', 'heart', 'hell', 'hero', 'high', 'home', 'horror', 'hot', 'hour', 'human', 'imagin', 'journey', 'keep', 'kid', 'kill', 'killer', 'know', 'last', 'laugh', 'law', 'legend', 'let', 'life', 'like', 'littl', 'live', 'look', 'love', 'lover', 'made', 'magic', 'make', 'man', 'master', 'may', 'meet', 'men', 'million', 'mind', 'money', 'mother', 'move', 'movi', 'murder', 'music', 'must', 'mysteri', 'need', 'never', 'new', 'next', 'night', 'nightmar', 'noth', 'passion', 'past', 'peopl', 'pictur', 'place', 'play', 'power', 'race', 'readi', 'real', 'realli', 'return', 'reveng', 'right', 'rock', 'rule', 'run', 'save', 'say', 'scream', 'secret', 'see', 'sex', 'show', 'side', 'someon', 'someth', 'sometim', 'space', 'stand', 'star', 'stop', 'stori', 'summer', 'surviv', 'take', 'tale', 'terrifi', 'terror', 'thing', 'think', 'thought', 'time', 'togeth', 'town', 'tri', 'true', 'turn', 'ultim', 'wait', 'want', 'war', 'watch', 'way', 'weapon', 'wild', 'win', 'woman', 'women', 'won', 'world', 'would', 'year', 'york', 'young']
+
+ Top Words in Cluster : 0 ------------------------------
+     cluster  dist_to_0  dist_to_1  dist_to_2  dist_to_3  dist_to_4   word
+134        0   0.814411   1.027085   1.422875   1.493943   1.385064   noth
+19         0   0.857143   1.404126   1.713948   1.758959   1.658836    big
+196        0   0.857143   1.351199   1.636077   1.594431   1.633525  would
+63         0   0.857143   1.351199   1.636077   1.594431   1.633525   find
+30         0   0.897843   1.656021   1.894675   1.845069   1.871293  crime
+112        1   1.111168   0.234317   1.277995   1.140540   1.118810   make
+113        1   1.111168   0.234317   1.277995   1.140540   1.118810    man
+117        1   1.111168   0.234317   1.277995   1.140540   1.118810    men
+119        1   1.111168   0.234317   1.277995   1.140540   1.118810   mind
+123        1   1.111168   0.234317   1.277995   1.140540   1.118810   movi
+
+ Top Words in Cluster : 1 ------------------------------
+     cluster  dist_to_0  dist_to_1  dist_to_2  dist_to_3  dist_to_4   word
+199        1   1.111168   0.234317   1.277995    1.14054    1.11881  young
+129        1   1.111168   0.234317   1.277995    1.14054    1.11881  never
+64         1   1.111168   0.234317   1.277995    1.14054    1.11881  first
+119        1   1.111168   0.234317   1.277995    1.14054    1.11881   mind
+34         1   1.111168   0.234317   1.277995    1.14054    1.11881    day
+35         1   1.111168   0.234317   1.277995    1.14054    1.11881   dead
+117        1   1.111168   0.234317   1.277995    1.14054    1.11881    men
+37         1   1.111168   0.234317   1.277995    1.14054    1.11881  death
+113        1   1.111168   0.234317   1.277995    1.14054    1.11881    man
+112        1   1.111168   0.234317   1.277995    1.14054    1.11881   make
+
+ Top Words in Cluster : 2 ------------------------------
+     cluster  dist_to_0  dist_to_1  dist_to_2  dist_to_3  dist_to_4     word
+116        2   1.494889   1.027085   0.795783   1.516849   1.472550     meet
+132        2   1.494889   1.027085   0.795783   1.516849   1.472550    night
+135        2   1.494889   1.027085   0.795783   1.516849   1.472550  passion
+33         2   1.758362   1.680993   1.114435   1.447044   1.893428     dark
+125        2   1.737932   1.396688   1.133774   1.658043   1.732552    music
+180        2   1.737932   1.396688   1.133774   1.658043   1.732552      tri
+143        2   2.005096   1.741859   1.152789   1.668410   1.915307    readi
+171        4   1.778557   1.433494   1.243509   1.816819   1.080927     tale
+178        2   1.778557   1.396688   1.243509   1.797739   1.708333   togeth
+84         3   1.421411   1.027085   1.260870   0.885207   1.385064     hero
+
+ Top Words in Cluster : 3 ------------------------------
+     cluster  dist_to_0  dist_to_1  dist_to_2  dist_to_3  dist_to_4   word
+90         3   1.421411   1.027085   1.260870   0.885207   1.385064  human
+166        3   1.421411   1.027085   1.260870   0.885207   1.385064   stop
+84         3   1.421411   1.027085   1.260870   0.885207   1.385064   hero
+126        3   1.631951   1.680993   1.675465   0.959959   1.780001   must
+150        3   1.631951   1.680993   1.675465   0.959959   1.780001   rule
+82         3   1.837811   1.717771   1.675465   1.029297   1.803257  heart
+137        1   1.111168   0.234317   1.277995   1.140540   1.118810  peopl
+42         1   1.111168   0.234317   1.277995   1.140540   1.118810  dream
+130        1   1.111168   0.234317   1.277995   1.140540   1.118810    new
+113        1   1.111168   0.234317   1.277995   1.140540   1.118810    man
+
+ Top Words in Cluster : 4 ------------------------------
+     cluster  dist_to_0  dist_to_1  dist_to_2  dist_to_3  dist_to_4    word
+17         4   1.470804   1.027085   1.595717   1.516849   0.501733    best
+65         4   1.470804   1.027085   1.595717   1.516849   0.501733    forc
+47         4   1.653691   1.433494   1.763953   1.458910   0.867027    even
+128        4   1.653691   1.433494   1.763953   1.458910   0.867027    need
+169        4   1.758362   1.418886   1.812579   1.758959   0.958333  surviv
+85         4   1.696335   1.381691   1.812579   1.678712   1.041667    high
+171        4   1.778557   1.433494   1.243509   1.816819   1.080927    tale
+129        1   1.111168   0.234317   1.277995   1.140540   1.118810   never
+130        1   1.111168   0.234317   1.277995   1.140540   1.118810     new
+42         1   1.111168   0.234317   1.277995   1.140540   1.118810   dream
+   cluster  dist_to_0  dist_to_1  dist_to_2  dist_to_3  dist_to_4      word  0        1   1.470804   0.975058   1.595717   1.493943   1.414827    action   
+1        1   1.111168   0.234317   1.277995   1.140540   1.118810  adventur   
+2        2   2.424366   2.215642   1.751586   2.187142   2.363275       age   
+3        0   2.057837   2.153657   2.345812   2.202852   2.327746      aliv   
+4        1   1.969150   1.907417   2.241556   2.048752   2.141278     alway   
+
+   cluster_name  
+0     make-love  
+1     make-love  
+2  family-fight  
+3       got-men  
+4     make-love  
+              year  big_journey  big_journey_words  family_fight  count    40.000000    40.000000           40.00000     40.000000   
+mean   1993.500000     7.471313          377.25000      4.449401   
+std      11.690452     0.983773          341.46928      0.798244   
+min    1974.000000     4.373368           67.00000      2.177858   
+25%    1983.750000     7.035528          134.00000      4.228972   
+50%    1993.500000     7.519829          190.50000      4.526868   
+75%    2003.250000     8.135560          543.25000      4.790130   
+max    2013.000000     8.976261         1199.00000      5.817246   
+
+       family_fight_words    got_men  got_men_words  human_hero  count           40.000000  40.000000      40.000000   40.000000   
+mean           231.200000   6.221553     327.450000    4.451562   
+std            212.994908   1.122706     307.154179    0.857688   
+min             36.000000   2.440591      38.000000    1.211204   
+25%             74.500000   5.886981     113.750000    4.056292   
+50%            118.500000   6.591074     159.500000    4.494569   
+75%            340.000000   6.989652     536.000000    4.904966   
+max            724.000000   7.528285    1039.000000    6.060606   
+
+       human_hero_words  make_love  make_love_words   total_words  
+count         40.000000  40.000000        40.000000     40.000000  
+mean         222.200000   9.372880       451.775000   5070.200000  
+std          196.024619   0.968201       391.926242   4699.920982  
+min           16.000000   7.570978       124.000000   1321.000000  
+25%           77.750000   8.610336       175.500000   1799.000000  
+50%          117.500000   9.329019       233.500000   2398.000000  
+75%          324.750000  10.179087       622.750000   7474.500000  
+max          697.000000  11.822660      1394.000000  16667.000000  
+                                             stemmed  0   funniest police shows ever funniest police co...   
+1   mosaiken und fresken als zeugen der geschicht...   
+2   let poisons lurk mud hatch maryland lottery l...   
+3   soup rob old tricks get ready match stars may...   
+4   searching star called earth first win great w...   
+
+                                        tagline_text  year  big_journey  0    One of the Funniest Police Shows Ever One of...  1974     8.106473   
+1    Mosaiken und Fresken als Zeugen der Geschich...  1975     4.373368   
+2    Let all the poisons that lurk in the mud hat...  1976     5.530547   
+3    Soup and Rob are up to their old tricks agai...  1977     4.933726   
+4    They were searching for a star called Earth,...  1978     6.936416   
+
+   big_journey_words  family_fight  family_fight_words   got_men  0                134      2.177858                  36  5.928615   
+1                 67      2.872063                  44  6.984334   
+2                 86      3.922830                  61  4.180064   
+3                 67      2.724595                  37  5.007364   
+4                108      3.018626                  47  2.440591   
+
+   got_men_words  human_hero  human_hero_words  make_love  make_love_words  0             98    4.476709                74  10.889292              180   
+1            107    3.328982                51   8.093995              124   
+2             65    3.729904                58   7.974277              124   
+3             68    3.829161                52  10.603829              144   
+4             38    3.660886                57  10.211946              159   
+
+   total_words  
+0         1653  
+1         1532  
+2         1555  
+3         1358  
+4         1557  
+                                              stemmed  35   pillars love triangle twin cities locally pro...   
+36   alice important date healing broken heart hil...   
+37   shook chile neighborhood lifestyle dollar chr...   
+38   movie unrated uncensored first family comedy ...   
+39   pretty outside ugly crying inside jash gave c...   
+
+                                         tagline_text  year  big_journey  35    The Pillars of a Love Triangle  The Twin Cit...  2009     7.193856   
+36    all about Alice and her very important date(...  2010     6.813545   
+37    12 days that shook Chile  It's not just a ne...  2011     7.439255   
+38    The Movie Unrated And Uncensored  The First ...  2012     6.972065   
+39    Pretty on the outside, ugly-crying on the in...  2013     6.928105   
+
+    big_journey_words  family_fight  family_fight_words   got_men  35               1199      4.343913                 724  6.149877   
+36                835      3.949408                 484  6.593227   
+37                943      4.622909                 586  6.571474   
+38                901      4.565503                 590  6.175037   
+39                530      4.104575                 314  6.980392   
+
+    got_men_words  human_hero  human_hero_words  make_love  make_love_words  35           1025    4.181916               697   8.363833             1394   
+36            808    4.088127               501   8.412893             1031   
+37            833    4.212685               534   8.212370             1041   
+38            798    3.853594               498   8.612551             1113   
+39            534    3.960784               303   7.647059              585   
+
+    total_words  
+35        16667  
+36        12255  
+37        12676  
+38        12923  
+39         7650  
+
+
